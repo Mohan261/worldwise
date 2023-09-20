@@ -1,0 +1,36 @@
+.map-app-sec {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.map-sec {
+  width: 60%;
+  background-color: bisque;
+}
+.logo-1 {
+  width: 40%;
+  margin-top: 35px;
+}
+.logo-1 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.map-links {
+  display: inline-block;
+  background-color: #42484d;
+  border-radius: 6px;
+  display: flex;
+}
+a div {
+  color: #fff;
+  padding: 8px 12px;
+}
+.app-sec {
+  width: 80%;
+}
