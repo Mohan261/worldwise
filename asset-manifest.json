@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/worldwise/static/css/main.6428bffc.css",
+    "main.js": "/worldwise/static/js/main.18a80bb6.js",
+    "static/js/787.43dcee92.chunk.js": "/worldwise/static/js/787.43dcee92.chunk.js",
+    "static/media/bg.jpg": "/worldwise/static/media/bg.3e2be86d98db926ce9f0.jpg",
+    "index.html": "/worldwise/index.html",
+    "main.6428bffc.css.map": "/worldwise/static/css/main.6428bffc.css.map",
+    "main.18a80bb6.js.map": "/worldwise/static/js/main.18a80bb6.js.map",
+    "787.43dcee92.chunk.js.map": "/worldwise/static/js/787.43dcee92.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6428bffc.css",
+    "static/js/main.18a80bb6.js"
+  ]
+}
