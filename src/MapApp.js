@@ -7,7 +7,7 @@ const MapApp = () => {
       <div className="content">
         <div className="logo-1">
           <Link to="/home">
-            <img src="../Assets/logo.png" alt="Logo" />
+            <img src="../assets/logo.png" alt="Logo" />
           </Link>
         </div>
         <div className="map-links">
