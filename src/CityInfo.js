@@ -1,14 +1,15 @@
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
+import { useData } from "./PostProvider";
 
-const CityInfo = ({ data }) => {
+const CityInfo = () => {
+  const { data } = useData();
   const navBack = useNavigate();
   const handleBack = () => {
     navBack("/app/cities");
   };
   const { id } = useParams();
-  console.log(id);
-  const newData = data.find((list) => list.id == id);
+  const newData = data.find((list) => list.id === Number(id));
   return (
     <div className="info-sec">
       <p className="heading">City Name</p>

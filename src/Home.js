@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const Home = () => {
   const startNav = useNavigate();
   const handleStart = () => {
-    startNav("/app/cities");
+    startNav("/login");
   };
   return (
     <div className="home">

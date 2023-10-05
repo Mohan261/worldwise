@@ -1,6 +1,8 @@
 import React from "react";
 import "./Countries.css";
-const Countries = ({ data }) => {
+import { useData } from "./PostProvider";
+const Countries = () => {
+  const { data } = useData();
   return (
     <div className="countries">
       {data.map((list) => (

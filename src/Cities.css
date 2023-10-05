@@ -14,14 +14,13 @@
   font-size: 16px;
   margin-top: 15px;
 }
+.item-sec{
+  position: relative;
+}
 .close {
-  font-size: 20px;
-  background-color: #242a2e;
-  color: #fff;
-  padding: 1px 6px;
-  border-radius: 50%;
-  width: 25px;
-  height: 25px;
+  position: absolute;
+  top :0px;
+  right:0px;
 }
 .right {
   display: flex;
@@ -31,7 +30,7 @@
 .left {
   display: flex;
   align-items: center;
-  gap: 15px;
+  padding-right: 40px;
 }
 .title-1 {
   color: #fff;

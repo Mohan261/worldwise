@@ -15,7 +15,7 @@ const Pricing = () => {
           </p>
         </div>
         <div className="side">
-          <img src="./Assets/img-2.jpg" alt="img" />
+          <img src="/Assets/img-2.jpg" alt="img" />
         </div>
       </div>
     </div>
